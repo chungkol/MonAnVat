@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		545269881D83A9EC000C8E05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545269871D83A9EC000C8E05 /* DetailViewController.swift */; };
 		54E55FB41D826AD900A7E6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E55FB31D826AD900A7E6CF /* AppDelegate.swift */; };
 		54E55FB61D826AD900A7E6CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E55FB51D826AD900A7E6CF /* ViewController.swift */; };
 		54E55FB91D826AD900A7E6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FB71D826AD900A7E6CF /* Main.storyboard */; };
 		54E55FBB1D826AD900A7E6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FBA1D826AD900A7E6CF /* Assets.xcassets */; };
 		54E55FBE1D826AD900A7E6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FBC1D826AD900A7E6CF /* LaunchScreen.storyboard */; };
+		54E55FC71D826AF100A7E6CF /* monanvat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FC61D826AF100A7E6CF /* monanvat.plist */; };
+		54E55FD21D826B2700A7E6CF /* banhgianman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FC91D826B2700A7E6CF /* banhgianman.jpg */; };
+		54E55FD31D826B2700A7E6CF /* banhgio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FCA1D826B2700A7E6CF /* banhgio.jpg */; };
+		54E55FD41D826B2700A7E6CF /* banhgoi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FCB1D826B2700A7E6CF /* banhgoi.jpg */; };
+		54E55FD51D826B2700A7E6CF /* banhtrangnuong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FCC1D826B2700A7E6CF /* banhtrangnuong.jpg */; };
+		54E55FD61D826B2700A7E6CF /* com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FCD1D826B2700A7E6CF /* com.jpg */; };
+		54E55FD71D826B2700A7E6CF /* nemchuaran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FCE1D826B2700A7E6CF /* nemchuaran.jpg */; };
+		54E55FD81D826B2700A7E6CF /* nemnuong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FCF1D826B2700A7E6CF /* nemnuong.jpg */; };
+		54E55FD91D826B2700A7E6CF /* phocuon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FD01D826B2700A7E6CF /* phocuon.jpg */; };
+		54E55FDA1D826B2700A7E6CF /* thitnuong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FD11D826B2700A7E6CF /* thitnuong.jpg */; };
+		54E55FDC1D826CA500A7E6CF /* MonAn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E55FDB1D826CA500A7E6CF /* MonAn.swift */; };
+		54E55FDE1D826EEB00A7E6CF /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E55FDD1D826EEB00A7E6CF /* Manager.swift */; };
+		54E55FE21D82730B00A7E6CF /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E55FE01D82730B00A7E6CF /* Cell.swift */; };
+		54E55FE31D82730B00A7E6CF /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FE11D82730B00A7E6CF /* Cell.xib */; };
+		54E55FE51D82753100A7E6CF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E55FE41D82753100A7E6CF /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		545269871D83A9EC000C8E05 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		54E55FB01D826AD900A7E6CF /* MonAnVat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonAnVat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E55FB31D826AD900A7E6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54E55FB51D826AD900A7E6CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,21 @@
 		54E55FBA1D826AD900A7E6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E55FBD1D826AD900A7E6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E55FBF1D826AD900A7E6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E55FC61D826AF100A7E6CF /* monanvat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = monanvat.plist; sourceTree = "<group>"; };
+		54E55FC91D826B2700A7E6CF /* banhgianman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banhgianman.jpg; sourceTree = "<group>"; };
+		54E55FCA1D826B2700A7E6CF /* banhgio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banhgio.jpg; sourceTree = "<group>"; };
+		54E55FCB1D826B2700A7E6CF /* banhgoi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banhgoi.jpg; sourceTree = "<group>"; };
+		54E55FCC1D826B2700A7E6CF /* banhtrangnuong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banhtrangnuong.jpg; sourceTree = "<group>"; };
+		54E55FCD1D826B2700A7E6CF /* com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = com.jpg; sourceTree = "<group>"; };
+		54E55FCE1D826B2700A7E6CF /* nemchuaran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nemchuaran.jpg; sourceTree = "<group>"; };
+		54E55FCF1D826B2700A7E6CF /* nemnuong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nemnuong.jpg; sourceTree = "<group>"; };
+		54E55FD01D826B2700A7E6CF /* phocuon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phocuon.jpg; sourceTree = "<group>"; };
+		54E55FD11D826B2700A7E6CF /* thitnuong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thitnuong.jpg; sourceTree = "<group>"; };
+		54E55FDB1D826CA500A7E6CF /* MonAn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonAn.swift; sourceTree = "<group>"; };
+		54E55FDD1D826EEB00A7E6CF /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		54E55FE01D82730B00A7E6CF /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		54E55FE11D82730B00A7E6CF /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		54E55FE41D82753100A7E6CF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +86,54 @@
 		54E55FB21D826AD900A7E6CF /* MonAnVat */ = {
 			isa = PBXGroup;
 			children = (
+				54E55FDF1D8272DB00A7E6CF /* ViewController */,
+				54E55FC81D826B1F00A7E6CF /* Resource */,
+				54E55FC51D826ADC00A7E6CF /* Model */,
 				54E55FB31D826AD900A7E6CF /* AppDelegate.swift */,
-				54E55FB51D826AD900A7E6CF /* ViewController.swift */,
 				54E55FB71D826AD900A7E6CF /* Main.storyboard */,
 				54E55FBA1D826AD900A7E6CF /* Assets.xcassets */,
 				54E55FBC1D826AD900A7E6CF /* LaunchScreen.storyboard */,
 				54E55FBF1D826AD900A7E6CF /* Info.plist */,
 			);
 			path = MonAnVat;
+			sourceTree = "<group>";
+		};
+		54E55FC51D826ADC00A7E6CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54E55FC61D826AF100A7E6CF /* monanvat.plist */,
+				54E55FDB1D826CA500A7E6CF /* MonAn.swift */,
+				54E55FDD1D826EEB00A7E6CF /* Manager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		54E55FC81D826B1F00A7E6CF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				54E55FE41D82753100A7E6CF /* logo.png */,
+				54E55FC91D826B2700A7E6CF /* banhgianman.jpg */,
+				54E55FCA1D826B2700A7E6CF /* banhgio.jpg */,
+				54E55FCB1D826B2700A7E6CF /* banhgoi.jpg */,
+				54E55FCC1D826B2700A7E6CF /* banhtrangnuong.jpg */,
+				54E55FCD1D826B2700A7E6CF /* com.jpg */,
+				54E55FCE1D826B2700A7E6CF /* nemchuaran.jpg */,
+				54E55FCF1D826B2700A7E6CF /* nemnuong.jpg */,
+				54E55FD01D826B2700A7E6CF /* phocuon.jpg */,
+				54E55FD11D826B2700A7E6CF /* thitnuong.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		54E55FDF1D8272DB00A7E6CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				545269871D83A9EC000C8E05 /* DetailViewController.swift */,
+				54E55FB51D826AD900A7E6CF /* ViewController.swift */,
+				54E55FE01D82730B00A7E6CF /* Cell.swift */,
+				54E55FE11D82730B00A7E6CF /* Cell.xib */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +194,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E55FD81D826B2700A7E6CF /* nemnuong.jpg in Resources */,
+				54E55FC71D826AF100A7E6CF /* monanvat.plist in Resources */,
+				54E55FDA1D826B2700A7E6CF /* thitnuong.jpg in Resources */,
+				54E55FE31D82730B00A7E6CF /* Cell.xib in Resources */,
+				54E55FD91D826B2700A7E6CF /* phocuon.jpg in Resources */,
+				54E55FD21D826B2700A7E6CF /* banhgianman.jpg in Resources */,
 				54E55FBE1D826AD900A7E6CF /* LaunchScreen.storyboard in Resources */,
+				54E55FD71D826B2700A7E6CF /* nemchuaran.jpg in Resources */,
+				54E55FD61D826B2700A7E6CF /* com.jpg in Resources */,
 				54E55FBB1D826AD900A7E6CF /* Assets.xcassets in Resources */,
+				54E55FD31D826B2700A7E6CF /* banhgio.jpg in Resources */,
+				54E55FE51D82753100A7E6CF /* logo.png in Resources */,
+				54E55FD51D826B2700A7E6CF /* banhtrangnuong.jpg in Resources */,
+				54E55FD41D826B2700A7E6CF /* banhgoi.jpg in Resources */,
 				54E55FB91D826AD900A7E6CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +221,10 @@
 			files = (
 				54E55FB61D826AD900A7E6CF /* ViewController.swift in Sources */,
 				54E55FB41D826AD900A7E6CF /* AppDelegate.swift in Sources */,
+				54E55FE21D82730B00A7E6CF /* Cell.swift in Sources */,
+				545269881D83A9EC000C8E05 /* DetailViewController.swift in Sources */,
+				54E55FDC1D826CA500A7E6CF /* MonAn.swift in Sources */,
+				54E55FDE1D826EEB00A7E6CF /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +376,7 @@
 				54E55FC41D826AD900A7E6CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
